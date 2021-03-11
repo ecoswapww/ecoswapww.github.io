@@ -1,0 +1,188 @@
+/* 背景颜色, 布局 */
+/* .all-bg {
+	background:linear-gradient(to left, #fff, #E0FFFF, #fff);
+	margin: 0 auto;
+	max-width: 1000px;
+} */
+/*屏幕小于414px时, 会覆盖默认的*/
+/* @media only screen and (max-width: 414px){
+	.all-bg {
+		max-width: 100%;
+	}
+} */
+
+/* 鼠标挨着变手指 */
+.all-pointer {
+	cursor: pointer;
+}
+
+/* 主内容区域 */
+.all-main {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 10px;
+}
+
+/* 白色块 */
+.all-w {
+	background: #FFFFFF;
+	border: 1px solid #F5F5F5;
+	padding: 15px 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+.all-w > div {
+	display: flex;
+	justify-content: space-between;
+}
+.all-hr {
+	/* background: #F5F5F5; */
+	background: #FFFFFF;
+	width: 90%;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.all-right-two > div:nth-child(1) {
+	padding-right: 10px;
+}
+.all-right-two > div:nth-child(2) {
+	text-align: right;
+}
+
+/* 按钮 */
+.all-btn {
+	background: #34CECC;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+}
+.all-btn-2 {
+	background: #EEFBFB;
+	color: #34CECC;
+	text-align: center;
+	border: 1px solid #34CECC;
+	border-radius: 5px;
+	padding: 3px;
+	cursor: pointer;
+	display: inline-block;
+}
+/* 失效的按钮2 */
+.all-btn-3 {
+	background: #EDEEF2;
+	color: #9F8AB4;
+	text-align: center;
+	border: 1px solid #9F8AB4;
+	border-radius: 5px;
+	padding: 3px;
+	display: inline-block;
+}
+/* logo图片 */
+.logo {
+	width: 141px;
+	height: 105px;
+	margin:0 auto;
+}
+
+/* 倒计时显示的时间 */
+.all-time {
+	background: #34CECC;
+	padding: 5px;
+	color: #FFFFFF;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+/* 弹框 */
+.all-pop-bg {
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+}
+.all-pop {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	justify-content: space-around;
+}
+.all-none {
+	display: none;
+}
+.all-block {
+	display: block;
+}
+@media only screen and (min-width: 415px) {
+	.all-pop {
+		width: 300px;
+		height: 150px;
+		background: #fff;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-left: -150px;
+		margin-top: -75px;
+		z-index: 9999;
+		border: 1px silver solid;
+		border-radius: 10px;
+	}
+}
+/* 宽度尺寸小于414时 */
+@media only screen and (max-width: 414px) {
+		.all-pop {
+			width: 260px;
+			height: 150px;
+			background: #fff;
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			margin-left: -145px;
+			margin-top: -90px;
+			z-index: 9999;
+			border: 1px silver solid;
+			border-radius: 8px;
+		}
+}
+
+/* 推荐人地址高亮 */
+.all-high{
+	background: #34CECC;
+	padding: 0 3px;
+}
+/* v1, v2高亮颜色 */
+@media only screen and (min-width: 415px){
+	.all-v2 {
+		background: #34CECC;
+		color: #FFF;
+		padding: 3px 15px;
+		margin-right: 20px;
+	}
+}
+/* 宽度尺寸小于414时 */
+@media only screen and (max-width: 414px){
+	.all-v2 {
+		background: #34CECC;
+		color: #FFF;
+		padding: 3px 15px;
+		margin-bottom: 5px;
+	}
+}
+
+
+/* 隐藏滚动条 */
+.all-overflow-hidden::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+.all-overflow-hidden::-moz-scrollbar {
+	width: 0;
+	height: 0;
+}
