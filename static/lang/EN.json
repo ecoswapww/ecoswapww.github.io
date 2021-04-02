@@ -96,5 +96,7 @@
   "Total-number-of-people-invited": "Total number of referal",
   "Number-of-first-place-invited": "Top of number referal for this round",
   "Number-of-second-place-invited": "Second of number referal for this round",
-  "Number-of-people-I-invited": "Personal referal in this round"
+  "Number-of-people-I-invited": "Personal referal in this round",
+  "n1":"The investment of the day has reached the limit, please continue the operation next round",
+  "n2":"Please mine a small amount of ECO in the ECO contract pool first to complete the investment authorization of the main contract."
 }

@@ -96,5 +96,7 @@
    "Total-number-of-people-invited": "我的邀請總人數",
    "Number-of-first-place-invited": "本輪邀請第一名的人數",
    "Number-of-second-place-invited": "本輪邀請第二名的人數",
-   "Number-of-people-I-invited": "我在本輪邀請人數"
+   "Number-of-people-I-invited": "我在本輪邀請人數",
+   "n1":"當日投資已達上限，請下一輪再繼續操作",
+  "n2":"請先到ECO合約池挖礦少量ECO，完成主合約投資授權"
  }

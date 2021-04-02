@@ -95,5 +95,7 @@
   "Total-number-of-people-invited": "招待者の総数",
   "Number-of-first-place-invited": "このラウンドのトップナンバー紹介",
   "Number-of-second-place-invited": "このラウンドの二番目ナンバー紹介",
-  "Number-of-people-I-invited": "このラウンドでの個人紹介"
+  "Number-of-people-I-invited": "このラウンドでの個人紹介",
+  "n1":"当日の投資はすでに上限に達しました。次のラウンドで続けてください。",
+  "n2":"まずECO契約池に行って、少量のECOを採掘して、主契約の投資許可を完成してください"
 }
